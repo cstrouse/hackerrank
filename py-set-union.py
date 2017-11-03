@@ -1,0 +1,5 @@
+en_input_count = raw_input()
+en_subs = set([int(n) for n in raw_input().split()])
+fr_input_count = raw_input()
+fr_subs = set([int(n) for n in raw_input().split()])
+print(len(en_subs | fr_subs))
